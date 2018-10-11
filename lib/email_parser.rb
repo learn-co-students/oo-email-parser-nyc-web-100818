@@ -11,7 +11,7 @@ class EmailParser
   end
 
   def parse
-    # .split (/regex/), / / indicates the use of regular expression \s stands for whitespace
+    # .split (/regex/), / / indicates the use of regular expression \s stands for whitespace , | stands for "or"
     emails.split(/, |\s/).uniq
   end
 
